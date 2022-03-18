@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <nav class="navbar border-bottom">
-                        <h1><a class="text-danger text-decoration-none" href="{{ url('/') }}">TRENITALIA</a></h1>
+                        <h1 class="display-1"><a class="text-danger text-decoration-none" href="{{ url('/') }}">TRENITALIA</a></h1>
                         <p class="display-6">Gruppo Ferrovie dello stato italiane</p>
                         <p><i>-- Ci scusiamo per il ritardo.</i></p>
                     </nav>
