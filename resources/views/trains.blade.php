@@ -4,8 +4,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h2>Vai alla lista dei treni in ritardo:</h2>
-                <p>Clicca qui -> <a href="{{ route('trains')}}">🚂</a></p>
+                <h3>Ecco i treni in ritardo:</h3>
+
+                
             </div>
         </div>
     </div>

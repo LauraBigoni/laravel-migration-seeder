@@ -12,13 +12,15 @@
 </head>
 
 <body>
-    <header>
+    <header class="my-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-danger">TRENITALIA</h1>
-                    <p>Gruppo Ferrovie dello stato italiane</p>
-                    <p><i>-- Ci scusiamo per il ritardo.</i></p>
+                    <nav class="navbar border-bottom">
+                        <h1><a class="text-danger text-decoration-none" href="{{ url('/') }}">TRENITALIA</a></h1>
+                        <p class="display-6">Gruppo Ferrovie dello stato italiane</p>
+                        <p><i>-- Ci scusiamo per il ritardo.</i></p>
+                    </nav>
                 </div>
             </div>
         </div>
