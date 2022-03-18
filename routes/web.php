@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/trains', function () {
-    return view('trains');
-})->name('trains');
+Route::get('/trains', 'TrainsController@index')->name('trains');
